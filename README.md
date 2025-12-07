@@ -1,15 +1,33 @@
 # MERN Notes App
-A simple notes application built with the MERN stack (MongoDB, Express.js, React, Node.js) to help you organize and manage your notes.
+A simple notes application built with React, Express, MongoDB, Node.js, and Tailwind CSS, designed to help you organize and manage your notes efficiently.
 
 ---
 
-## Introduction
-The MERN Notes App is designed to make managing and organizing your notes easy and efficient. Using a modern tech stack, it provides a smooth and seamless user experience.
+## Technologies Used
+- React  
+- Express  
+- Node.js  
+- MongoDB  
+- Tailwind CSS  
+
+---
+
+## System Overview
+The app features a REST API built with Node.js and Express, using middleware for authentication and data validation. User passwords are hashed with bcrypt and authenticated via JWT tokens.
+
+---
+
+## Features
+- User Authentication: Login and registration system  
+- Notes Management: Add, edit, and delete notes  
+- Secure Passwords: Passwords hashed with bcrypt  
+- JWT Middleware: Secure routes for logged-in users  
+- REST API: Full backend API to handle notes and user data  
 
 ---
 
 ## Prerequisites
-Before getting started, make sure you have the following:
+Before running the project, make sure you have:
 
-- **Node.js**: Ensure Node.js is installed. You can download it from [nodejs.org](https://nodejs.org).  
-- **MongoDB**: A MongoDB instance is required. You can set up a local database or use a cloud-hosted solution like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+- Node.js  
+- MongoDB (local or cloud, e.g., MongoDB Atlas)
